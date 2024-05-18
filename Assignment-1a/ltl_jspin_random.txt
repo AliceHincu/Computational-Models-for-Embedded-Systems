@@ -1,0 +1,32 @@
+  0:	proc  - (:root:) creates proc  0 (Educator)
+  0:	proc  - (:root:) creates proc  1 (Program)
+spin: a1program.pml:59, Error: syntax error	saw 'operator: >'
+ltl ltl_1: [] ((! (requestProcessed)) || ((isPassed) || (! (isPassed))))
+ltl ltl_2: [] ((! (requestProcessed)) || (! ((isPassed) && (! (isPassed)))))
+Educator requesting to take Program.
+0 Educa 12  printf('Educat 
+0 Educa 14  isTakingProgra 
+Process Statement          isTakingPr 
+0 Educa 15  signal!TakePro 1          
+1 Progr 37  signal?TakePro 1          
+0 Educa 15  values: 1!Take 1          
+1 Progr 37  values: 1?Take 1          
+Program received request from educator to join.
+1 Progr 38  printf('Progra 1          
+1 Progr 39  1              1          
+Program passes the educator.
+1 Progr 41  printf('Progra 1          
+1 Progr 42  requestProcess 1          
+Process Statement          isTakingPr requestPro 
+1 Progr 43  requestAccepte 1          1          
+Process Statement          isTakingPr requestAcc requestPro 
+1 Progr 44  signal!PassPro 1          1          1          
+0 Educa 20  signal?PassPro 1          1          1          
+1 Progr 44  values: 1!Pass 1          1          1          
+0 Educa 20  values: 1?Pass 1          1          1          
+Educator is better prepared for future generations.
+0 Educa 21  printf('Educat 1          1          1          
+0 Educa 22  isPassed = 1   1          1          1          
+ 11:	proc  1 (Program) terminates
+ 11:	proc  0 (Educator) terminates
+2 processes created

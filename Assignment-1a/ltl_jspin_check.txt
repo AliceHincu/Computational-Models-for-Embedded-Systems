@@ -1,0 +1,6 @@
+ltl ltl_0: [] ((! (isTakingProgram)) || (requestProcessed))
+ltl ltl_1: [] ((! (requestProcessed)) || ((isPassed) || (! (isPassed))))
+ltl ltl_2: [] ((! (requestProcessed)) || (! ((isPassed) && (! (isPassed)))))
+  the model contains 3 never claims: ltl_2, ltl_1, ltl_0
+  only one claim is used in a verification run
+  choose which one with ./pan -N name (defaults to -N ltl_0)

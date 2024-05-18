@@ -1,0 +1,25 @@
+warning: never claim + accept labels requires -a flag to fully verify
+warning: for p.o. reduction to be valid the never claim must be stutter-invariant
+(never claims generated from LTL formulae are stutter-invariant)
+(Spin Version 6.0.0 -- 5 December 2010)
+	+ Partial Order Reduction
+Full statespace search for:
+	never claim         	+
+	assertion violations	+ (if within scope of claim)
+	cycle checks       	- (disabled by -DSAFETY)
+	invalid end states	- (disabled by never claim)
+State-vector 24 byte, depth reached 17, ••• errors: 0 •••
+        5 states, stored
+        2 states, matched
+        7 transitions (= stored+matched)
+        9 atomic steps
+hash conflicts:         0 (resolved)
+    2.195	memory usage (Mbyte)
+unreached in proctype Educator
+	(0 of 16 states)
+unreached in proctype Program
+	(0 of 21 states)
+unreached in claim ltl_0
+	_spin_nvr.tmp:8, state 8, "-end-"
+	(1 of 8 states)
+pan: elapsed time 0 seconds
